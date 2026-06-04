@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
 
 body {
     font-family: Roboto, sans-serif;
@@ -53,6 +53,31 @@ header {
 .info-canvas {
     width: 165px;
     text-align: center;
+}
+
+.section-03 {
+    background-color: #E5E7EB;
+    display: flex;
+    padding: 120px 200px;
+    flex-direction: column;
+}
+
+.quote,
+.author {
+    color: #1F2937;
+}
+
+.quote {
+    font-weight: 300;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.author {
+    font-weight: 900;
+    font-size: 18px;
+    align-self: flex-end;
+    margin: 0;
 }
 
 .secondary-text {
