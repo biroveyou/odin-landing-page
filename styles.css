@@ -5,6 +5,8 @@ body {
     margin: 0;
 }
 
+
+/* Header */
 header {
     background-color: #1F2937;
     display: flex;
@@ -19,6 +21,8 @@ header {
     color: #F9FAF8;
 }
 
+
+/* Section 01 - Hero */
 .section-01 {
     background-color: #1F2937;
     display: flex;
@@ -36,6 +40,8 @@ header {
     gap: 12px;
 }
 
+
+/* Section 02 - Canvas */
 .section-02 {
     background-color: #F9FAF8;
     padding: 56px 80px;
@@ -51,10 +57,12 @@ header {
 }
 
 .info-canvas {
-    width: 165px;
+    width: 180px;
     text-align: center;
 }
 
+
+/* Section 03 - Quote */
 .section-03 {
     background-color: #E5E7EB;
     display: flex;
@@ -71,43 +79,86 @@ header {
     font-weight: 300;
     font-size: 36px;
     font-style: italic;
+    margin-bottom: 10px;
 }
 
 .author {
     font-weight: 900;
-    font-size: 18px;
+    font-size: 24px;
     align-self: flex-end;
-    margin: 0;
+}
+
+
+/* Section 04 */
+.section-04 {
+    background-color: #F9FAF8;
+    display: flex;
+    padding: 80px 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: #3882F6;
+    border-radius: 10px;
+    display: flex;
+    padding: 40px 100px;
+    align-items: center;
+}
+
+.info-card {
+    margin-right: 180px;
+}
+
+.call {
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.call-subtext {
+    color: #F9FAF8;
 }
 
 .secondary-text {
-    font-size: 18px;
     color: #E5E7EB;
-    margin: 0;
 }
 
 .box {
     border: 3px solid #3882F6;
     border-radius: 20px;
-    width: 160px;
-    height: 160px;
+    width: 170px;
+    height: 170px;
+    margin-bottom: 8px;
 }
 
 .button {
+    box-sizing: border-box;
     color: #F9FAF8;
     font-size: 18px;
+    font-weight: 600;
     border: none;
     border-radius: 8px;
     padding: 8px 32px;
 }
 
+.button:hover {
+    cursor: pointer;
+}
+
 .filled {
     background-color: #3882F6;
-    font-weight: bold;
+}
+
+.unfilled {
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8;
 }
 
 h1,
-h2 {
+h2,
+ul,
+p {
     margin: 0;
     padding: 0;
 }
@@ -128,13 +179,12 @@ h2 {
 ul {
     list-style: none;
     display: flex;
-    margin: 0;
-    padding: 0;
     gap: 24px;
 }
 
 p {
     color: #6D747D;
+    font-size: 18px;
 }
 
 a {
